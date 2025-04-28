@@ -1,0 +1,11 @@
+Basic data types:
+
+Integer Types: C++ provides several integer types, such as int for general integer values and char for text characters encoded as bytes.
+
+Boolean Type: The bool type represents Boolean values (true or false), useful for conditional statements and controlling program flow.
+
+Floating-Point Types: float and double are used for storing real numbers with decimal points, with double offering greater accuracy.
+
+Pointers: Variables that store memory addresses, allowing direct manipulation of data structures.
+
+Strings: Handled as arrays of characters or using the more flexible String class from the C++ standard library.
