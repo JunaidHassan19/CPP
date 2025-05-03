@@ -15,10 +15,10 @@ int main()
 
   if (a + b > c && a + c > b && b + c > a)
   {
-    cout << a << " " << b << " " << c << " are the sides of triangle" << endl;
+    cout << a << ", " << b << ", " << c << " are the sides of triangle" << endl;
   }
   else
   {
-    cout << a << " " << b << " " << c << " are not the sides of triangle" << endl;
+    cout << a << ", " << b << ", " << c << " are not the sides of triangle" << endl;
   }
 }
