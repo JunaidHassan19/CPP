@@ -1,0 +1,13 @@
+Write a C++ program that prints the following number pattern:
+
+1234
+1234
+1234
+1234
+
+The program should:
+1. Ask the user to enter the number of rows and columns
+2. Use nested loops to generate the pattern:
+   - An outer loop to handle rows
+   - An inner loop to handle columns and print the column number
+3. Print the pattern as shown above
