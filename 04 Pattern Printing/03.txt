@@ -1,0 +1,17 @@
+Write a C++ program that prints a solid square pattern of asterisks.
+
+The program should:
+1. Ask the user to enter the size of the square (n)
+2. Use nested loops to print the pattern:
+   - An outer loop for rows (from 1 to n)
+   - An inner loop for columns (from 1 to n)
+3. Print an n×n square of asterisks
+
+Example:
+Enter the size of the square: 4
+****
+****
+****
+****
+
+This pattern is called a "solid square" because it fills the entire square area with asterisks.
