@@ -1,0 +1,13 @@
+Write a C++ program that prints the following number pattern:
+
+1 1 1 1 
+2 2 2 2
+3 3 3 3 
+4 4 4 4
+
+The program should:
+1. Ask the user to enter the number of rows and columns
+2. Use nested loops to generate the pattern:
+   - An outer loop to iterate through rows (where the row number is printed)
+   - An inner loop to repeat the row number across columns
+3. Print the pattern with spaces between numbers as shown above
