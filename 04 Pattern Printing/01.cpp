@@ -1,5 +1,5 @@
-#include <iostream>  // Include the iostream library for input and output operations
-using namespace std; // Use the standard namespace
+#include <iostream>
+using namespace std;
 
 int main() // Main function where the program execution begins
 {

@@ -1,4 +1,4 @@
-Print the given pattern
+Print the given pattern: 
 
 *****
 *****
