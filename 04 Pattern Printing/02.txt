@@ -1,0 +1,13 @@
+Write a C++ program that prints a rectangle pattern of asterisks (*) based on user input.
+The program should:
+1. Ask the user to enter the number of rows
+2. Ask the user to enter the number of columns
+3. Print a rectangle of asterisks with the specified dimensions
+4. Use nested loops to create the pattern
+
+Example:
+Enter the number of rows: 3
+Enter the number of columns: 4
+****
+****
+****
