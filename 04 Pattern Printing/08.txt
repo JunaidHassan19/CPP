@@ -1,0 +1,14 @@
+Write a C++ program that prints the following alphabet pattern:
+
+A A A A
+B B B B 
+C C C C 
+D D D D 
+E E E E
+
+The program should:
+1. Ask the user to enter the number of rows and columns
+2. Use nested loops to generate the pattern:
+   - An outer loop to handle rows (where each row displays a letter starting from 'A')
+   - An inner loop to repeat the same letter across columns
+3. Print the pattern with spaces between letters as shown above
