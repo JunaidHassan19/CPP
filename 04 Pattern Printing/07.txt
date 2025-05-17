@@ -10,5 +10,5 @@ The program should:
 1. Ask the user to enter the number of rows and columns
 2. Use nested loops to generate the pattern:
    - An outer loop to handle rows
-   - An inner loop to handle columns and print letters (starting from 'A')
+   - An inner loop to handle columns and print letters (starting from 'a')
 3. Print the pattern with spaces between letters as shown above
