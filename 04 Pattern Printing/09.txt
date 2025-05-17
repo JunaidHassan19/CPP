@@ -1,0 +1,13 @@
+Write a C++ program that prints the following star triangle pattern:
+
+*
+* *
+* * *
+* * * *
+
+The program should:
+1. Ask the user to enter the number of rows
+2. Use nested loops to generate the pattern:
+   - An outer loop to handle rows
+   - An inner loop to print stars in each row (the number of stars equals the row number)
+3. Print the pattern as shown above
