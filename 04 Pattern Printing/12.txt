@@ -1,0 +1,15 @@
+Write a C++ program that prints the following number triangle pattern:
+
+1
+A B 
+1 2 3 
+A B C D 
+1 2 3 4 5 
+A B C D E F  
+
+The program should:
+1. Ask the user to enter the number of rows
+2. Use nested loops to generate the pattern:
+   - An outer loop to handle rows
+   - An inner loop to print stars in each row (the number of stars equals the row number)
+3. Print the pattern as shown above
