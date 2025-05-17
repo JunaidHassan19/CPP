@@ -1,0 +1,13 @@
+Write a C++ program that prints the following inverted star triangle pattern:
+
+* * * * 
+* * * 
+* * 
+*
+
+The program should:
+1. Ask the user to enter the number of rows
+2. Use nested loops to generate the pattern:
+   - An outer loop to handle rows (counting down)
+   - An inner loop to print stars in each row (the number of stars decreases with each row)
+3. Print the pattern with spaces between stars as shown above
