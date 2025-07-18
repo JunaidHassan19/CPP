@@ -1,0 +1,7 @@
+Print the following triangle pattern using 0s and 1s:
+1
+0 1
+1 0 1
+0 1 0 1
+
+Each row alternates between 0 and 1, starting with 1 at the top.
