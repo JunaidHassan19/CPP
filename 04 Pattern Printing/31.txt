@@ -1,0 +1,29 @@
+Print the given pattern
+
+      *
+    * * * 
+  * * * * *
+* * * * * * *
+  * * * * *
+    * * *
+      *
+
+Star diamond pattern
+
+Requirements:
+- Take input n (number of rows for the upper half including middle)
+- For n=4, the pattern should have 7 total rows
+- Each star should be separated by a space
+- Use proper spacing to center the diamond
+- The pattern should be symmetric both horizontally and vertically
+
+Example:
+Input: n = 4
+Output: 7 rows as shown above
+
+Constraints:
+- 1 ≤ n ≤ 20
+- Use nested loops for implementation
+- Consider the relationship between row number and number of stars
+- Upper half: stars = 2*i - 1 (where i goes from 1 to n)
+- Lower half: stars = 2*i - 1 (where i goes from n-1 to 1)
