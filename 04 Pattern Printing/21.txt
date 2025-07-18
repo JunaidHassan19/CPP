@@ -1,0 +1,9 @@
+Print the following pattern:
+
+    *
+    *
+* * * * *
+    *
+    *
+
+This is known as the "Star Plus" pattern. Write a program to display this pattern for a given size.
