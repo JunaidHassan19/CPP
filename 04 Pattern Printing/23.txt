@@ -1,0 +1,13 @@
+Print the given pattern 
+
+*        *
+ *      *
+  *    *
+   *  *
+    **
+   *  *
+  *    *
+ *      *
+*        *
+
+Diamond Star Pattern
