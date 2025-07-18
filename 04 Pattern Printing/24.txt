@@ -1,0 +1,29 @@
+Print the given pattern
+
+      *
+    * *
+  * * *
+* * * *
+
+Star Triangle Reverse Pattern
+
+Problem Description:
+Write a program to print a right-aligned inverted star triangle pattern.
+
+Requirements:
+- Print 4 rows of stars
+- Each row should have increasing number of stars (1, 2, 3, 4)
+- Stars should be right-aligned with spaces
+- Each star should be separated by a space
+- The pattern should form an inverted triangle shape
+
+Input: Number of rows (n = 4)
+Output: Right-aligned star triangle pattern
+
+Example:
+For n = 4:
+      *     (6 spaces + 1 star)
+    * *     (4 spaces + 2 stars)
+  * * *     (2 spaces + 3 stars)
+* * * *     (0 spaces + 4 stars)
+
