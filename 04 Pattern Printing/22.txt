@@ -1,0 +1,8 @@
+Print the following hollow rectangle pattern with stars:
+
+********
+*      *
+*      *
+********
+
+(Hollow Rectangle Pattern)
