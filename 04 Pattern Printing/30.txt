@@ -1,0 +1,20 @@
+Print the pattern - Alphabet Pyramid
+
+       A
+     A B C
+    A B C D
+   A B C D E
+  A B C D E F 
+
+Requirements:
+- Print an alphabet pyramid with 5 rows
+- Each row should be center-aligned
+- Row 1: 1 letter (A)
+- Row 2: 3 letters (A B C)
+- Row 3: 4 letters (A B C D)
+- Row 4: 5 letters (A B C D E)
+- Row 5: 6 letters (A B C D E F)
+- Letters should be separated by single spaces
+- Use appropriate leading spaces for center alignment
+
+Challenge: Make the program flexible to accept the number of rows as input.
