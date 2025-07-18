@@ -1,0 +1,8 @@
+Print the given pattern
+
+      A
+    A B
+  A B C
+A B C D
+
+Alphabet Triangle Reverse Pattern
