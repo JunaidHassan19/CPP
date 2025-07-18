@@ -1,0 +1,26 @@
+Print the given pattern
+
+   ****
+  ****
+ ****
+****
+
+Rhombus Pattern
+
+Requirements:
+- Print a rhombus pattern with 4 rows
+- Each row contains 4 asterisks (*)
+- Leading spaces decrease by 1 for each row (3, 2, 1, 0)
+- Use nested loops for implementation
+- Input: Number of rows (n = 4)
+- Output: Rhombus pattern as shown above
+
+Example:
+Input: 4
+Output:
+   ****
+  ****
+ ****
+****
+
+Hint: Use outer loop for rows and inner loop for spaces and asterisks
