@@ -1,0 +1,8 @@
+Write a C++ program that prints the given pattern:
+
+1
+1 3
+1 3 5
+1 3 5 7
+
+Odd number traingle
