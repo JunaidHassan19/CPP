@@ -1,0 +1,29 @@
+Print the given pattern - Number Pyramid
+
+Pattern:
+     1
+   1 2 3
+ 1 2 3 4 5
+1 2 3 4 5 6 7
+
+Description:
+- Each row contains consecutive numbers starting from 1
+- Row i contains (2*i - 1) numbers
+- Numbers are separated by spaces
+- The pattern is center-aligned with leading spaces
+- Row 1: 1 number with 3 leading spaces
+- Row 2: 3 numbers with 2 leading spaces  
+- Row 3: 5 numbers with 1 leading space
+- Row 4: 7 numbers with 0 leading spaces
+
+Input: Number of rows (n)
+Output: Print the number pyramid pattern
+
+Example:
+For n = 4, print the above pattern
+For n = 3, print:
+   1
+ 1 2 3
+1 2 3 4 5
+
+Note: Use appropriate spacing to maintain pyramid alignment
