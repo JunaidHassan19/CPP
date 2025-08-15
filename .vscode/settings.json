@@ -1,9 +1,104 @@
 {
+  // File associations for better IntelliSense
   "files.associations": {
     "iostream": "cpp",
     "ostream": "cpp",
+    "istream": "cpp",
     "cmath": "cpp",
     "sstream": "cpp",
-    "string": "cpp"
-  }
+    "string": "cpp",
+    "vector": "cpp",
+    "array": "cpp",
+    "algorithm": "cpp",
+    "fstream": "cpp",
+    "iomanip": "cpp",
+    "cstdlib": "cpp",
+    "cstdio": "cpp",
+    "cstring": "cpp",
+    "cctype": "cpp",
+    "memory": "cpp",
+    "functional": "cpp",
+    "iterator": "cpp",
+    "numeric": "cpp",
+    "random": "cpp",
+    "utility": "cpp",
+    "*.tcc": "cpp",
+    "*.hpp": "cpp"
+  },
+
+  // C++ specific settings
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.cStandard": "c17",
+  "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\g++.exe",
+  "C_Cpp.default.compilerArgs": [
+    "-Wall",
+    "-Wextra",
+    "-std=c++17"
+  ],
+  "C_Cpp.errorSquiggles": "enabled",
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.autocomplete": "default",
+  "C_Cpp.formatting": "vcFormat",
+
+  // Code formatting and style
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.rulers": [80, 120],
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": true,
+  "editor.showFoldingControls": "always",
+
+  // Code suggestions and IntelliSense
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+
+  // Terminal settings for Windows
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": "cmd.exe",
+      "icon": "terminal-cmd"
+    }
+  },
+
+  // File explorer settings
+  "files.exclude": {
+    "**/*.exe": true,
+    "**/*.o": true,
+    "**/*.obj": true,
+    "**/a.out": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+
+  // Auto-save settings
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  // Theme and appearance
+  "workbench.colorTheme": "Dark+ (default dark)",
+  "workbench.iconTheme": "vs-seti",
+
+  // Git integration
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  // Problem matcher
+  "problems.showCurrentInStatus": true,
+
+  // Extension recommendations
+  "extensions.ignoreRecommendations": false
 }

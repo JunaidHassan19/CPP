@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "ms-vscode.cpptools",
+    "ms-vscode.cpptools-extension-pack",
+    "ms-vscode.cmake-tools",
+    "twxs.cmake",
+    "formulahendry.code-runner",
+    "ms-vscode.hexeditor",
+    "streetsidesoftware.code-spell-checker",
+    "ms-vscode.vscode-json",
+    "ms-vscode.theme-tomorrowkit",
+    "pkief.material-icon-theme",
+    "oderwat.indent-rainbow",
+    "ms-vscode.powershell",
+    "bradlc.vscode-tailwindcss",
+    "gruntfuggly.todo-tree",
+    "ms-vsliveshare.vsliveshare",
+    "github.copilot",
+    "github.copilot-chat"
+  ],
+  "unwantedRecommendations": [
+    "ms-vscode.vscode-typescript-next"
+  ]
+}

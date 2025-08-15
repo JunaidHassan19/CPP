@@ -1,0 +1,151 @@
+{
+  "C++ Main Function": {
+    "prefix": "main",
+    "body": [
+      "#include <iostream>",
+      "using namespace std;",
+      "",
+      "int main()",
+      "{",
+      "\t$1",
+      "\treturn 0;",
+      "}"
+    ],
+    "description": "Create a basic C++ main function"
+  },
+  "C++ Header Template": {
+    "prefix": "header",
+    "body": [
+      "#include <iostream>",
+      "#include <vector>",
+      "#include <string>",
+      "#include <algorithm>",
+      "using namespace std;",
+      "",
+      "$1"
+    ],
+    "description": "Common C++ headers"
+  },
+  "For Loop": {
+    "prefix": "for",
+    "body": [
+      "for(int ${1:i} = 0; ${1:i} < ${2:n}; ${1:i}++)",
+      "{",
+      "\t$3",
+      "}"
+    ],
+    "description": "Basic for loop"
+  },
+  "While Loop": {
+    "prefix": "while",
+    "body": [
+      "while(${1:condition})",
+      "{",
+      "\t$2",
+      "}"
+    ],
+    "description": "Basic while loop"
+  },
+  "Function Template": {
+    "prefix": "func",
+    "body": [
+      "${1:int} ${2:functionName}(${3:parameters})",
+      "{",
+      "\t$4",
+      "\treturn ${5:value};",
+      "}"
+    ],
+    "description": "Basic function template"
+  },
+  "Void Function": {
+    "prefix": "vfunc",
+    "body": [
+      "void ${1:functionName}(${2:parameters})",
+      "{",
+      "\t$3",
+      "}"
+    ],
+    "description": "Void function template"
+  },
+  "Array Declaration": {
+    "prefix": "arr",
+    "body": [
+      "${1:int} ${2:arrayName}[${3:size}];"
+    ],
+    "description": "Array declaration"
+  },
+  "Vector Declaration": {
+    "prefix": "vec",
+    "body": [
+      "vector<${1:int}> ${2:vectorName};"
+    ],
+    "description": "Vector declaration"
+  },
+  "If-Else Statement": {
+    "prefix": "if",
+    "body": [
+      "if(${1:condition})",
+      "{",
+      "\t$2",
+      "}",
+      "else",
+      "{",
+      "\t$3",
+      "}"
+    ],
+    "description": "If-else statement"
+  },
+  "Switch Statement": {
+    "prefix": "switch",
+    "body": [
+      "switch(${1:variable})",
+      "{",
+      "\tcase ${2:value1}:",
+      "\t\t$3",
+      "\t\tbreak;",
+      "\tcase ${4:value2}:",
+      "\t\t$5",
+      "\t\tbreak;",
+      "\tdefault:",
+      "\t\t$6",
+      "\t\tbreak;",
+      "}"
+    ],
+    "description": "Switch statement template"
+  },
+  "Class Template": {
+    "prefix": "class",
+    "body": [
+      "class ${1:ClassName}",
+      "{",
+      "private:",
+      "\t$2",
+      "",
+      "public:",
+      "\t${1:ClassName}(); // Constructor",
+      "\t~${1:ClassName}(); // Destructor",
+      "\t$3",
+      "};"
+    ],
+    "description": "Basic class template"
+  },
+  "Comment Block": {
+    "prefix": "comment",
+    "body": [
+      "/*",
+      " * ${1:Description}",
+      " * Author: ${2:Your Name}",
+      " * Date: ${3:Date}",
+      " */"
+    ],
+    "description": "Comment block template"
+  },
+  "Input/Output": {
+    "prefix": "io",
+    "body": [
+      "cout << \"${1:message}\" << endl;",
+      "cin >> ${2:variable};"
+    ],
+    "description": "Basic input/output operations"
+  }
+}
